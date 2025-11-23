@@ -1,0 +1,92 @@
+/* Partie header */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    padding-top: 40px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(26, 26, 26);
+    border-bottom:solid 6px rgb(78, 78, 78);
+}
+header a{
+    text-decoration: none;
+    color: rgb(153, 45, 255);
+}
+#destination{
+    text-decoration: underline;
+    color: white;
+}
+#cont_head{
+    color: white;
+    overflow: auto;
+}
+#logo_head{
+    float: left;
+}
+header img{
+    border: 1px solid white ;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    height: 60px;
+    width: 60px;
+    filter: brightness(100%);
+    transition: filter 0.3s ease-in;
+}
+header img:hover{
+    filter: brightness(60%);
+}
+#s-lien{
+    margin-right: 45px;
+}
+#s-lien div{
+    float: right;
+    margin-top: 14px;
+    margin-right: 85px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 13px;
+    background: rgb(51, 51, 51);
+    border: 1px solid white;
+    transition: background-color 0.4s ease, transform 0,5s ease;
+}
+#s-lien div:hover{
+    background-color: rgb(78, 78, 78);
+    transform: translateY(-2px);
+}
+
+/* Partie principale */
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cont_pre{
+    overflow: auto;
+    align-items: center;
+}
+div#cont_pre img{
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    border: solid 5px rgb(26, 26, 26);
+}
+div#cont_pre div{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: red;
+}
+div#cont_pre div:first-child{
+    float: left;
+    margin-top: 0px;
+    margin-left: 150px;
+    background-color: gray;
+}
